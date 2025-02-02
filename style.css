@@ -1,0 +1,4495 @@
+.findjobpage-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+   
+  .findjobpage-findjobpage {
+    width: 100%;
+    height: 1917px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+   
+  .findjobpage-frame13983 {
+    gap: 70px;
+    top: 214px;
+    left: 76.18072509765625px;
+    width: 1288px;
+    height: 1595px;
+    display: flex;
+    padding: 8px 16px;
+    position: absolute;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+  }
+   
+  .findjobpage-frame13982 {
+    gap: 50px;
+    width: 1050.9976806640625px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+   
+  .findjobpage-frame162 {
+    gap: 10px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+   
+  .findjobpage-frame161 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-text10 {
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    font-size: 45px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 45px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame160 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-text11 {
+    color: rgba(94, 102, 112, 1);
+    height: auto;
+    font-size: 22px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 22px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-searchbar {
+    gap: 50px;
+    display: flex;
+    padding: 10px 50px;
+    align-self: stretch;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+   
+  .findjobpage-search1 {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-search {
+    width: 30px;
+    height: 30px;
+  }
+   
+  .findjobpage-searchtext {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text12 {
+    color: rgba(109, 103, 103, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-locations11 {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-locationarrow1 {
+    width: 25px;
+    height: 25px;
+  }
+   
+  .findjobpage-locationstext1 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text13 {
+    color: rgba(109, 103, 103, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-locations12 {
+    gap: 5px;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-frame163 {
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-locationarrow2 {
+    width: 25px;
+    height: 25px;
+  }
+   
+  .findjobpage-locationstext2 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text14 {
+    color: rgba(109, 103, 103, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-searchbtn {
+    gap: 10px;
+    display: flex;
+    padding: 8px 24px;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text15 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame13981 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+   
+  .findjobpage-frame193 {
+    gap: 500px;
+    width: 1192px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-frame190 {
+    gap: 200px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame167 {
+    gap: 10px;
+    width: 100px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame164 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-text16 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 24px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame189 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text17 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 24px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame13980 {
+    gap: 70px;
+    width: 1255.6385498046875px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-frame188 {
+    gap: 40px;
+    height: 1134px;
+    display: flex;
+    padding: 8px 16px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    background-color: rgba(247, 246, 246, 1);
+  }
+   
+  .findjobpage-frame168 {
+    gap: 7px;
+    display: flex;
+    padding: 8px 16px 20px;
+    align-self: stretch;
+    align-items: flex-start;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 0 0 1px;
+    flex-direction: column;
+    justify-content: center;
+  }
+   
+  .findjobpage-frame166 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text18 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame165 {
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-textinput1 {
+    color: rgba(154, 166, 172, 1);
+    width: 132px;
+    height: 32px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+    text-align: left;
+    align-items: flex-start;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-weight: 400;
+    border-color: rgba(221, 225, 227, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    background-color: var(--dl-color-black white);
+  }
+   
+  .findjobpage-textinput2 {
+    color: rgba(154, 166, 172, 1);
+    width: 132px;
+    height: 32px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+    text-align: left;
+    align-items: flex-start;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-weight: 400;
+    border-color: rgba(221, 225, 227, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    background-color: var(--dl-color-black&white-white);
+  }
+   
+  .findjobpage-frame187 {
+    gap: 32px;
+    width: 283.5px;
+    height: 844px;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame183 {
+    display: flex;
+    padding: 8px 16px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+   
+  .findjobpage-frame1821 {
+    gap: 120px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1781 {
+    gap: 10px;
+    width: 85px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-text19 {
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1811 {
+    width: 32px;
+    height: 26px;
+  }
+   
+  .findjobpage-group14082 {
+    width: 137px;
+    height: 136px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-group140811 {
+    top: 0px;
+    left: 0px;
+    width: 137px;
+    height: 136px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-box10 {
+    gap: 10px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox10 {
+    width: 16px;
+    height: 16px;
+  }
+   
+  .findjobpage-text20 {
+    top: 5px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box11 {
+    gap: 10px;
+    top: 28px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox11 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text21 {
+    top: 33px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box12 {
+    gap: 10px;
+    top: 56px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox12 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text22 {
+    top: 61px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box13 {
+    gap: 10px;
+    top: 84px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox13 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-box14 {
+    gap: 10px;
+    top: 112px;
+    left: 1px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox14 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text23 {
+    top: 89px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text24 {
+    top: 117px;
+    left: 25px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame184 {
+    display: flex;
+    padding: 8px 16px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1822 {
+    gap: 130px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1782 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-text25 {
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1812 {
+    width: 32px;
+    height: 26px;
+  }
+   
+  .findjobpage-group14113 {
+    width: 122px;
+    height: 80px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-group140812 {
+    top: 0px;
+    left: 0px;
+    width: 122px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-box15 {
+    gap: 10px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox15 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text26 {
+    top: 5px;
+    left: 20px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box16 {
+    gap: 10px;
+    top: 28px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox16 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text27 {
+    top: 33px;
+    left: 20px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box17 {
+    gap: 10px;
+    top: 56px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox17 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text28 {
+    top: 61px;
+    left: 20px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame185 {
+    display: flex;
+    padding: 8px 16px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1823 {
+    gap: 161px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1783 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text29 {
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1813 {
+    width: 32px;
+    height: 26px;
+  }
+   
+  .findjobpage-group14114 {
+    width: 188px;
+    height: 136px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-group140813 {
+    top: 0px;
+    left: 0px;
+    width: 188px;
+    height: 136px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-box18 {
+    gap: 10px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox18 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text30 {
+    top: 5px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box19 {
+    gap: 10px;
+    top: 28px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox19 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text31 {
+    top: 33px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box20 {
+    gap: 10px;
+    top: 56px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox20 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text32 {
+    top: 61px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box21 {
+    gap: 10px;
+    top: 84px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox21 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-box22 {
+    gap: 10px;
+    top: 112px;
+    left: 1px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox22 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text33 {
+    top: 89px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text34 {
+    top: 117px;
+    left: 25px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame186 {
+    display: flex;
+    padding: 8px 16px;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1824 {
+    gap: 161px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1784 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text35 {
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1814 {
+    width: 32px;
+    height: 26px;
+  }
+   
+  .findjobpage-group14115 {
+    width: 201px;
+    height: 164px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-group140814 {
+    top: 0px;
+    left: 0px;
+    width: 201px;
+    height: 164px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-box23 {
+    gap: 10px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox23 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text36 {
+    top: 5px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box24 {
+    gap: 10px;
+    top: 28px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox24 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text37 {
+    top: 33px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box25 {
+    gap: 10px;
+    top: 56px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox25 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text38 {
+    top: 61px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-box26 {
+    gap: 10px;
+    top: 84px;
+    left: 0px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox26 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-box27 {
+    gap: 10px;
+    top: 112px;
+    left: 1px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox27 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-box28 {
+    gap: 10px;
+    top: 140px;
+    left: 1px;
+    display: flex;
+    padding: 4px 0;
+    position: absolute;
+    align-items: flex-start;
+  }
+   
+  .findjobpage-checkbox28 {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(176, 185, 190, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--dl-color-lightgray-lightgray5);
+  }
+   
+  .findjobpage-text39 {
+    top: 89px;
+    left: 24px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text40 {
+    top: 117px;
+    left: 25px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text41 {
+    top: 145px;
+    left: 25px;
+    color: rgba(48, 48, 48, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame173 {
+    gap: 10px;
+    display: flex;
+    padding: 8px 16px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-vector100 {
+    width: 16px;
+    height: 8px;
+  }
+   
+  .findjobpage-text42 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16px;
+    font-stretch: normal;
+    text-decoration: underline;
+  }
+   
+  .findjobpage-frame13979 {
+    gap: 40px;
+    width: 870.1385498046875px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+   
+  .findjobpage-frame139771 {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    align-items: flex-start;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-frame13970 {
+    gap: 20px;
+    width: 346.1600036621094px;
+    height: 216px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-frame140151 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1951 {
+    gap: 100px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1941 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text43 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-bookmark-simple1 {
+    width: 31px;
+    height: 27.30434799194336px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector101 {
+    top: 4.266302585601807px;
+    left: 7.82552433013916px;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-frame1961 {
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-type1 {
+    gap: 10.512051582336426px;
+    display: flex;
+    padding: 4.20482063293457px 8.40964126586914px;
+    align-items: flex-start;
+    border-radius: 3.1536154747009277px;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-text44 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text45 {
+    color: var(--dl-color-gray-500);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1981 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame1971 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-group140491 {
+    width: 50px;
+    height: 30.427396774291992px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector102 {
+    top: 7.105865955352783px;
+    left: 0px;
+    width: 42px;
+    height: 23px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector103 {
+    top: 7.427295207977295px;
+    left: 7.3212890625px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector104 {
+    top: 0px;
+    left: 7.3192338943481445px;
+    width: 43px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector105 {
+    top: 8.440911293029785px;
+    left: 22.517578125px;
+    width: 5px;
+    height: 12px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector106 {
+    top: 20.45403289794922px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector107 {
+    top: 10.829450607299805px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector108 {
+    top: 15.212904930114746px;
+    left: 0px;
+    width: 42px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector109 {
+    top: 15.212904930114746px;
+    left: 7.3193359375px;
+    width: 42px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector110 {
+    top: 20.452173233032227px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector111 {
+    top: 15.212904930114746px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-group140571 {
+    width: 200px;
+    height: 44.10700988769531px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-text46 {
+    left: 2.879950523376465px;
+    color: rgba(48, 48, 48, 1);
+    width: 95px;
+    height: auto;
+    position: absolute;
+    font-size: 16.81928253173828px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16.81928253173828px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-map-pin10 {
+    top: 25.20400047302246px;
+    left: -1.8189894035458565e-12px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-map-pin11 {
+    top: 0px;
+    left: 0px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector112 {
+    top: 5.316464900970459px;
+    left: 7.043279647827148px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector113 {
+    top: 1.7721763849258423px;
+    left: 3.521639823913574px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-text47 {
+    top: 27.43011474609375px;
+    left: 22.7578125px;
+    color: var(--dl-color-gray-500);
+    width: 177px;
+    height: auto;
+    position: absolute;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139681 {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame139661 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(59, 70, 215, 1);
+    border-style: solid;
+    border-width: 1.0512051582336426px;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+  }
+   
+  .findjobpage-text48 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139671 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text49 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame13971 {
+    gap: 20px;
+    width: 346.1600036621094px;
+    height: 216px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-frame140152 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1952 {
+    gap: 100px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1942 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text50 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-bookmark-simple2 {
+    width: 31px;
+    height: 27.30434799194336px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector114 {
+    top: 4.266302585601807px;
+    left: 7.82552433013916px;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-frame1962 {
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-type2 {
+    gap: 10.512051582336426px;
+    display: flex;
+    padding: 4.20482063293457px 8.40964126586914px;
+    align-items: flex-start;
+    border-radius: 3.1536154747009277px;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-text51 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text52 {
+    color: var(--dl-color-gray-500);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1982 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame1972 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-group140492 {
+    width: 50px;
+    height: 30.427396774291992px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector115 {
+    top: 7.105865955352783px;
+    left: 0px;
+    width: 42px;
+    height: 23px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector116 {
+    top: 7.427295207977295px;
+    left: 7.3212890625px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector117 {
+    top: 0px;
+    left: 7.3192338943481445px;
+    width: 43px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector118 {
+    top: 8.440911293029785px;
+    left: 22.517578125px;
+    width: 5px;
+    height: 12px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector119 {
+    top: 20.45403289794922px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector120 {
+    top: 10.829450607299805px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector121 {
+    top: 15.212904930114746px;
+    left: 0px;
+    width: 42px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector122 {
+    top: 15.212904930114746px;
+    left: 7.3193359375px;
+    width: 42px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector123 {
+    top: 20.452173233032227px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector124 {
+    top: 15.212904930114746px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-group140572 {
+    width: 200px;
+    height: 44.10700988769531px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-text53 {
+    left: 2.879950523376465px;
+    color: rgba(48, 48, 48, 1);
+    width: 95px;
+    height: auto;
+    position: absolute;
+    font-size: 16.81928253173828px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16.81928253173828px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-map-pin12 {
+    top: 25.20400047302246px;
+    left: -1.8189894035458565e-12px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-map-pin13 {
+    top: 0px;
+    left: 0px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector125 {
+    top: 5.316464900970459px;
+    left: 7.043023109436035px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector126 {
+    top: 1.7721763849258423px;
+    left: 3.521639823913574px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-text54 {
+    top: 27.43011474609375px;
+    left: 22.7578125px;
+    color: var(--dl-color-gray-500);
+    width: 177px;
+    height: auto;
+    position: absolute;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139682 {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame139662 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(59, 70, 215, 1);
+    border-style: solid;
+    border-width: 1.0512051582336426px;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+  }
+   
+  .findjobpage-text55 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139672 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text56 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame13972 {
+    gap: 20px;
+    width: 346.1600036621094px;
+    height: 216px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-frame140153 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1953 {
+    gap: 100px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1943 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text57 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-bookmark-simple3 {
+    width: 31px;
+    height: 27.30434799194336px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector127 {
+    top: 4.266302585601807px;
+    left: 7.82552433013916px;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-frame1963 {
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-type3 {
+    gap: 10.512051582336426px;
+    display: flex;
+    padding: 4.20482063293457px 8.40964126586914px;
+    align-items: flex-start;
+    border-radius: 3.1536154747009277px;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-text58 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text59 {
+    color: var(--dl-color-gray-500);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1983 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame1973 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-group140493 {
+    width: 50px;
+    height: 30.427396774291992px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector128 {
+    top: 7.105865955352783px;
+    left: 0px;
+    width: 42px;
+    height: 23px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector129 {
+    top: 7.427295207977295px;
+    left: 7.3212890625px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector130 {
+    top: 0px;
+    left: 7.3192338943481445px;
+    width: 43px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector131 {
+    top: 8.440911293029785px;
+    left: 22.517578125px;
+    width: 5px;
+    height: 12px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector132 {
+    top: 20.45403289794922px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector133 {
+    top: 10.829450607299805px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector134 {
+    top: 15.212904930114746px;
+    left: 0px;
+    width: 42px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector135 {
+    top: 15.212904930114746px;
+    left: 7.3193359375px;
+    width: 42px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector136 {
+    top: 20.452173233032227px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector137 {
+    top: 15.212904930114746px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-group140573 {
+    width: 200px;
+    height: 44.10700988769531px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-text60 {
+    left: 2.879950523376465px;
+    color: rgba(48, 48, 48, 1);
+    width: 95px;
+    height: auto;
+    position: absolute;
+    font-size: 16.81928253173828px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16.81928253173828px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-map-pin14 {
+    top: 25.20400047302246px;
+    left: -1.8189894035458565e-12px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-map-pin15 {
+    top: 0px;
+    left: 0px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector138 {
+    top: 5.316464900970459px;
+    left: 7.043023109436035px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector139 {
+    top: 1.772112250328064px;
+    left: 3.521639823913574px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-text61 {
+    top: 27.43011474609375px;
+    left: 22.7578125px;
+    color: var(--dl-color-gray-500);
+    width: 177px;
+    height: auto;
+    position: absolute;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139683 {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame139663 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(59, 70, 215, 1);
+    border-style: solid;
+    border-width: 1.0512051582336426px;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+  }
+   
+  .findjobpage-text62 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139673 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text63 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame13974 {
+    gap: 20px;
+    width: 346.1600036621094px;
+    height: 216px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-frame140154 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1954 {
+    gap: 100px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1944 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text64 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-bookmark-simple4 {
+    width: 31px;
+    height: 27.30434799194336px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector140 {
+    top: 4.266302585601807px;
+    left: 7.82552433013916px;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-frame1964 {
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-type4 {
+    gap: 10.512051582336426px;
+    display: flex;
+    padding: 4.20482063293457px 8.40964126586914px;
+    align-items: flex-start;
+    border-radius: 3.1536154747009277px;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-text65 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text66 {
+    color: var(--dl-color-gray-500);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1984 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame1974 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-group140494 {
+    width: 50px;
+    height: 30.427396774291992px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector141 {
+    top: 7.105865955352783px;
+    left: 0px;
+    width: 42px;
+    height: 23px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector142 {
+    top: 7.427295207977295px;
+    left: 7.3212890625px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector143 {
+    top: 0px;
+    left: 7.3192338943481445px;
+    width: 43px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector144 {
+    top: 8.440911293029785px;
+    left: 22.517578125px;
+    width: 5px;
+    height: 12px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector145 {
+    top: 20.45403289794922px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector146 {
+    top: 10.829450607299805px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector147 {
+    top: 15.212904930114746px;
+    left: 0px;
+    width: 42px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector148 {
+    top: 15.212904930114746px;
+    left: 7.3193359375px;
+    width: 42px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector149 {
+    top: 20.452173233032227px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector150 {
+    top: 15.212904930114746px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-group140574 {
+    width: 200px;
+    height: 44.10700988769531px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-text67 {
+    left: 2.879950523376465px;
+    color: rgba(48, 48, 48, 1);
+    width: 95px;
+    height: auto;
+    position: absolute;
+    font-size: 16.81928253173828px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16.81928253173828px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-map-pin16 {
+    top: 25.20400047302246px;
+    left: -1.8189894035458565e-12px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-map-pin17 {
+    top: 0px;
+    left: 0px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector151 {
+    top: 5.316464900970459px;
+    left: 7.043023109436035px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector152 {
+    top: 1.772112250328064px;
+    left: 3.521639823913574px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-text68 {
+    top: 27.43011474609375px;
+    left: 22.7578125px;
+    color: var(--dl-color-gray-500);
+    width: 177px;
+    height: auto;
+    position: absolute;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139684 {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame139664 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(59, 70, 215, 1);
+    border-style: solid;
+    border-width: 1.0512051582336426px;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+  }
+   
+  .findjobpage-text69 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139674 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text70 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame13973 {
+    gap: 20px;
+    width: 346.1600036621094px;
+    height: 216px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-frame140155 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1955 {
+    gap: 100px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1945 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text71 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-bookmark-simple5 {
+    width: 31px;
+    height: 27.30434799194336px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector153 {
+    top: 4.266302585601807px;
+    left: 7.82552433013916px;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-frame1965 {
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-type5 {
+    gap: 10.512051582336426px;
+    display: flex;
+    padding: 4.20482063293457px 8.40964126586914px;
+    align-items: flex-start;
+    border-radius: 3.1536154747009277px;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-text72 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text73 {
+    color: var(--dl-color-gray-500);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1985 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame1975 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-group140495 {
+    width: 50px;
+    height: 30.427396774291992px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector154 {
+    top: 7.105865955352783px;
+    left: 0px;
+    width: 42px;
+    height: 23px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector155 {
+    top: 7.427295207977295px;
+    left: 7.3212890625px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector156 {
+    top: 0px;
+    left: 7.3192338943481445px;
+    width: 43px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector157 {
+    top: 8.440911293029785px;
+    left: 22.517578125px;
+    width: 5px;
+    height: 12px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector158 {
+    top: 20.45403289794922px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector159 {
+    top: 10.829450607299805px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector160 {
+    top: 15.212904930114746px;
+    left: 0px;
+    width: 42px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector161 {
+    top: 15.212904930114746px;
+    left: 7.3193359375px;
+    width: 42px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector162 {
+    top: 20.452173233032227px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector163 {
+    top: 15.212904930114746px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-group140575 {
+    width: 200px;
+    height: 44.10700988769531px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-text74 {
+    left: 2.879950523376465px;
+    color: rgba(48, 48, 48, 1);
+    width: 95px;
+    height: auto;
+    position: absolute;
+    font-size: 16.81928253173828px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16.81928253173828px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-map-pin18 {
+    top: 25.20400047302246px;
+    left: -1.8189894035458565e-12px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-map-pin19 {
+    top: 0px;
+    left: 0px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector164 {
+    top: 5.316464900970459px;
+    left: 7.043023109436035px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector165 {
+    top: 1.772112250328064px;
+    left: 3.521639823913574px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-text75 {
+    top: 27.43011474609375px;
+    left: 22.7578125px;
+    color: var(--dl-color-gray-500);
+    width: 177px;
+    height: auto;
+    position: absolute;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139685 {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame139665 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(59, 70, 215, 1);
+    border-style: solid;
+    border-width: 1.0512051582336426px;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+  }
+   
+  .findjobpage-text76 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139675 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text77 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139761 {
+    gap: 20px;
+    width: 346.1600036621094px;
+    height: 216px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-frame140156 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1956 {
+    gap: 100px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1946 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text78 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-bookmark-simple6 {
+    width: 31px;
+    height: 27.30434799194336px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector166 {
+    top: 4.266302585601807px;
+    left: 7.82552433013916px;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-frame1966 {
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-type6 {
+    gap: 10.512051582336426px;
+    display: flex;
+    padding: 4.20482063293457px 8.40964126586914px;
+    align-items: flex-start;
+    border-radius: 3.1536154747009277px;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-text79 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text80 {
+    color: var(--dl-color-gray-500);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1986 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame1976 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-group140496 {
+    width: 50px;
+    height: 30.427396774291992px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector167 {
+    top: 7.105865955352783px;
+    left: 0px;
+    width: 42px;
+    height: 23px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector168 {
+    top: 7.427295207977295px;
+    left: 7.3212890625px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector169 {
+    top: 0px;
+    left: 7.3192338943481445px;
+    width: 43px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector170 {
+    top: 8.440911293029785px;
+    left: 22.517578125px;
+    width: 5px;
+    height: 12px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector171 {
+    top: 20.45403289794922px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector172 {
+    top: 10.829450607299805px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector173 {
+    top: 15.212904930114746px;
+    left: 0px;
+    width: 42px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector174 {
+    top: 15.212904930114746px;
+    left: 7.3193359375px;
+    width: 42px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector175 {
+    top: 20.452173233032227px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector176 {
+    top: 15.212904930114746px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-group140576 {
+    width: 200px;
+    height: 44.10700988769531px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-text81 {
+    left: 2.879950523376465px;
+    color: rgba(48, 48, 48, 1);
+    width: 95px;
+    height: auto;
+    position: absolute;
+    font-size: 16.81928253173828px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16.81928253173828px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-map-pin20 {
+    top: 25.20400047302246px;
+    left: -1.8189894035458565e-12px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-map-pin21 {
+    top: 0px;
+    left: 0px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector177 {
+    top: 5.316464900970459px;
+    left: 7.043023109436035px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector178 {
+    top: 1.772112250328064px;
+    left: 3.521639823913574px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-text82 {
+    top: 27.43011474609375px;
+    left: 22.7578125px;
+    color: var(--dl-color-gray-500);
+    width: 177px;
+    height: auto;
+    position: absolute;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139686 {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame139666 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(59, 70, 215, 1);
+    border-style: solid;
+    border-width: 1.0512051582336426px;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+  }
+   
+  .findjobpage-text83 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139676 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text84 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139751 {
+    gap: 20px;
+    width: 346.1600036621094px;
+    height: 216px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-frame140157 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1957 {
+    gap: 100px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1947 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text85 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-bookmark-simple7 {
+    width: 31px;
+    height: 27.30434799194336px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector179 {
+    top: 4.266302585601807px;
+    left: 7.82552433013916px;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-frame1967 {
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-type7 {
+    gap: 10.512051582336426px;
+    display: flex;
+    padding: 4.20482063293457px 8.40964126586914px;
+    align-items: flex-start;
+    border-radius: 3.1536154747009277px;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-text86 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text87 {
+    color: var(--dl-color-gray-500);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1987 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame1977 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-group140497 {
+    width: 50px;
+    height: 30.427396774291992px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector180 {
+    top: 7.105865955352783px;
+    left: 0px;
+    width: 42px;
+    height: 23px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector181 {
+    top: 7.427295207977295px;
+    left: 7.3212890625px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector182 {
+    top: 0px;
+    left: 7.3192338943481445px;
+    width: 43px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector183 {
+    top: 8.440911293029785px;
+    left: 22.517578125px;
+    width: 5px;
+    height: 12px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector184 {
+    top: 20.45403289794922px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector185 {
+    top: 10.829450607299805px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector186 {
+    top: 15.212904930114746px;
+    left: 0px;
+    width: 42px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector187 {
+    top: 15.212904930114746px;
+    left: 7.3193359375px;
+    width: 42px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector188 {
+    top: 20.452173233032227px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector189 {
+    top: 15.212904930114746px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-group140577 {
+    width: 200px;
+    height: 44.10700988769531px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-text88 {
+    left: 2.879950523376465px;
+    color: rgba(48, 48, 48, 1);
+    width: 95px;
+    height: auto;
+    position: absolute;
+    font-size: 16.81928253173828px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16.81928253173828px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-map-pin22 {
+    top: 25.20400047302246px;
+    left: -1.8189894035458565e-12px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-map-pin23 {
+    top: 0px;
+    left: 0px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector190 {
+    top: 5.316464900970459px;
+    left: 7.043023109436035px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector191 {
+    top: 1.772112250328064px;
+    left: 3.521639823913574px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-text89 {
+    top: 27.43011474609375px;
+    left: 22.7578125px;
+    color: var(--dl-color-gray-500);
+    width: 177px;
+    height: auto;
+    position: absolute;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139687 {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame139667 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(59, 70, 215, 1);
+    border-style: solid;
+    border-width: 1.0512051582336426px;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+  }
+   
+  .findjobpage-text90 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139677 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text91 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139772 {
+    gap: 20px;
+    width: 346.1600036621094px;
+    height: 216px;
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-frame140158 {
+    gap: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame1958 {
+    gap: 100px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+   
+  .findjobpage-frame1948 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text92 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 30px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-bookmark-simple8 {
+    width: 31px;
+    height: 27.30434799194336px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector192 {
+    top: 4.266302585601807px;
+    left: 7.82552433013916px;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-frame1968 {
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-type8 {
+    gap: 10.512051582336426px;
+    display: flex;
+    padding: 4.20482063293457px 8.40964126586914px;
+    align-items: flex-start;
+    border-radius: 3.1536154747009277px;
+    background-color: rgba(221, 242, 255, 1);
+  }
+   
+  .findjobpage-text93 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text94 {
+    color: var(--dl-color-gray-500);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame1988 {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame1978 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+   
+  .findjobpage-group140498 {
+    width: 50px;
+    height: 30.427396774291992px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector193 {
+    top: 7.105865955352783px;
+    left: 0px;
+    width: 42px;
+    height: 23px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector194 {
+    top: 7.427295207977295px;
+    left: 7.3212890625px;
+    width: 3px;
+    height: 2px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector195 {
+    top: 0px;
+    left: 7.3192338943481445px;
+    width: 43px;
+    height: 20px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector196 {
+    top: 8.440911293029785px;
+    left: 22.517578125px;
+    width: 5px;
+    height: 12px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector197 {
+    top: 20.45403289794922px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector198 {
+    top: 10.829450607299805px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 10px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector199 {
+    top: 15.212904930114746px;
+    left: 0px;
+    width: 42px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector200 {
+    top: 15.212904930114746px;
+    left: 7.3193359375px;
+    width: 42px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector201 {
+    top: 20.452173233032227px;
+    left: 9.921875px;
+    width: 0px;
+    height: 1px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector202 {
+    top: 15.212904930114746px;
+    left: 27.7001953125px;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-group140578 {
+    width: 200px;
+    height: 44.10700988769531px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-text95 {
+    left: 2.879950523376465px;
+    color: rgba(48, 48, 48, 1);
+    width: 95px;
+    height: auto;
+    position: absolute;
+    font-size: 16.81928253173828px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 16.81928253173828px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-map-pin24 {
+    top: 25.20400047302246px;
+    left: -1.8189894035458565e-12px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+   
+  .findjobpage-map-pin25 {
+    top: 0px;
+    left: 0px;
+    width: 18.781429290771484px;
+    height: 18.90300941467285px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+   
+  .findjobpage-vector203 {
+    top: 5.316464900970459px;
+    left: 7.043023109436035px;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+  }
+   
+  .findjobpage-vector204 {
+    top: 1.772112250328064px;
+    left: 3.521639823913574px;
+    width: 12px;
+    height: 15px;
+    position: absolute;
+  }
+   
+  .findjobpage-text96 {
+    top: 27.43011474609375px;
+    left: 22.7578125px;
+    color: var(--dl-color-gray-500);
+    width: 177px;
+    height: auto;
+    position: absolute;
+    font-size: 14.716872215270996px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139688 {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-frame139668 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(59, 70, 215, 1);
+    border-style: solid;
+    border-width: 1.0512051582336426px;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+  }
+   
+  .findjobpage-text97 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame139678 {
+    gap: 10.512051582336426px;
+    width: 142.08172607421875px;
+    height: 40.80866241455078px;
+    display: flex;
+    padding: 21.02410316467285px 55.713871002197266px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4.20482063293457px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text98 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 14.716872215270996px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-frame13978 {
+    gap: 10px;
+    width: 234px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: rgba(0, 0, 0, 1);
+    border-style: solid;
+    border-width: 0 0 2px;
+    flex-direction: column;
+  }
+   
+  .findjobpage-frame139762 {
+    gap: 10px;
+    display: flex;
+    padding: 8px 16px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+  }
+   
+  .findjobpage-vector205 {
+    width: 16px;
+    height: 8px;
+  }
+   
+  .findjobpage-frame139752 {
+    gap: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text99 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 24px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 14.716872215270996px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-navbar {
+    gap: 272px;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    display: flex;
+    padding: 0 120px;
+    position: absolute;
+    flex-grow: 1;
+    align-self: stretch;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 1);
+  }
+   
+  .findjobpage-logo {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+   
+  .findjobpage-text100 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 32px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 48px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-links {
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-text101 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text102 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-text103 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-buttons {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .findjobpage-btn1 {
+    gap: 10px;
+    height: 48px;
+    display: flex;
+    padding: 8px 24px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(59, 70, 215, 1);
+  }
+   
+  .findjobpage-text104 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+   
+  .findjobpage-btn2 {
+    gap: 10px;
+    height: 48px;
+    display: flex;
+    padding: 8px 24px;
+    align-items: center;
+    flex-shrink: 0;
+    border-color: rgba(59, 70, 215, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: rgba(255, 127, 0, 0);
+  }
+   
+  .findjobpage-text105 {
+    color: rgba(59, 70, 215, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    font-stretch: normal;
+    text-decoration: none;
+  }

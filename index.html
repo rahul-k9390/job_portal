@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css" />
+    <div>
+     
+
+      <div class="findjobpage-container">
+        <div class="findjobpage-findjobpage">
+          <div class="findjobpage-frame13983">
+            <div class="findjobpage-frame13982">
+              <div class="findjobpage-frame162">
+                <div class="findjobpage-frame161">
+                  <span class="findjobpage-text10">Job Search</span>
+                </div>
+                <div class="findjobpage-frame160">
+                  <span class="findjobpage-text11">
+                    Search for your desired job matching your skills
+                  </span>
+                </div>
+              </div>
+              <div class="findjobpage-searchbar">
+                <div class="findjobpage-search1">
+                  
+                  <div class="findjobpage-searchtext">
+                    <span class="findjobpage-text12">
+                      Search job title / Enter skills / Company
+                    </span>
+                  </div>
+                </div>
+                <div class="findjobpage-locations11">
+                 
+                  <div class="findjobpage-locationstext1">
+                    <span class="findjobpage-text13">Enter locations</span>
+                  </div>
+                </div>
+                <div class="findjobpage-locations12">
+                  <div class="findjobpage-frame163">
+                    
+                  </div>
+                  <div class="findjobpage-locationstext2">
+                    <span class="findjobpage-text14">Year of exprience</span>
+                  </div>
+                </div>
+                <div class="findjobpage-searchbtn">
+                  <span class="findjobpage-text15">Search</span>
+                </div>
+              </div>
+            </div>
+            <div class="findjobpage-frame13981">
+              <div class="findjobpage-frame193">
+                <div class="findjobpage-frame190">
+                  <div class="findjobpage-frame167">
+                    <div class="findjobpage-frame164">
+                      <span class="findjobpage-text16">Filter</span>
+                    </div>
+                  </div>
+                  <div class="findjobpage-frame189">
+                    <span class="findjobpage-text17">All jobs (1215)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="findjobpage-frame13980">
+                <div class="findjobpage-frame188">
+                  <div class="findjobpage-frame168">
+                    <div class="findjobpage-frame166">
+                      <span class="findjobpage-text18">Salary Range</span>
+                    </div>
+                    <div class="findjobpage-frame165">
+                      <input
+                        type="text"
+                        placeholder="Min"
+                        class="findjobpage-textinput1"
+                      />
+                      <input
+                        type="text"
+                        placeholder="Max"
+                        class="findjobpage-textinput2"
+                      />
+                    </div>
+                  </div>
+                  <div class="findjobpage-frame187">
+                    <div class="findjobpage-frame183">
+                      <div class="findjobpage-frame1821">
+                        <div class="findjobpage-frame1781">
+                          <span class="findjobpage-text19">Job Type</span>
+                        </div>
+               
+                      </div>
+                      <div class="findjobpage-group14082">
+                        <div class="findjobpage-group140811">
+                          <div class="findjobpage-box10">
+                           
+                          </div>
+                          <span class="findjobpage-text20">All (2567)</span>
+                          <div class="findjobpage-box11">
+                            <div class="findjobpage-checkbox11"></div>
+                          </div>
+                          <span class="findjobpage-text21">
+                            Full-Time (650)
+                          </span>
+                          <div class="findjobpage-box12">
+                            <div class="findjobpage-checkbox12"></div>
+                          </div>
+                          <span class="findjobpage-text22">
+                            Part-Time (445)
+                          </span>
+                          <div class="findjobpage-box13">
+                            <div class="findjobpage-checkbox13"></div>
+                          </div>
+                          <div class="findjobpage-box14">
+                            <div class="findjobpage-checkbox14"></div>
+                          </div>
+                          <span class="findjobpage-text23">
+                            Internship (80)
+                          </span>
+                          <span class="findjobpage-text24">Contract (22)</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame184">
+                      <div class="findjobpage-frame1822">
+                        <div class="findjobpage-frame1782">
+                          <span class="findjobpage-text25">Work mode</span>
+                        </div>
+                        
+                      </div>
+                      <div class="findjobpage-group14113">
+                        <div class="findjobpage-group140812">
+                          <div class="findjobpage-box15">
+                            <div class="findjobpage-checkbox15"></div>
+                          </div>
+                          <span class="findjobpage-text26">On-Site</span>
+                          <div class="findjobpage-box16">
+                            <div class="findjobpage-checkbox16"></div>
+                          </div>
+                          <span class="findjobpage-text27">Remote (1000)</span>
+                          <div class="findjobpage-box17">
+                            <div class="findjobpage-checkbox17"></div>
+                          </div>
+                          <span class="findjobpage-text28">Hybrid (2000)</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame185">
+                      <div class="findjobpage-frame1823">
+                        <div class="findjobpage-frame1783">
+                          <span class="findjobpage-text29">Popular job</span>
+                        </div>
+                        
+                      </div>
+                      <div class="findjobpage-group14114">
+                        <div class="findjobpage-group140813">
+                          <div class="findjobpage-box18">
+                            <div class="findjobpage-checkbox18"></div>
+                          </div>
+                          <span class="findjobpage-text30">Marketing (21)</span>
+                          <div class="findjobpage-box19">
+                            <div class="findjobpage-checkbox19"></div>
+                          </div>
+                          <span class="findjobpage-text31">
+                            Engineering (45)
+                          </span>
+                          <div class="findjobpage-box20">
+                            <div class="findjobpage-checkbox20"></div>
+                          </div>
+                          <span class="findjobpage-text32">Design (71)</span>
+                          <div class="findjobpage-box21">
+                            <div class="findjobpage-checkbox21"></div>
+                          </div>
+                          <div class="findjobpage-box22">
+                            <div class="findjobpage-checkbox22"></div>
+                          </div>
+                          <span class="findjobpage-text33">Sales (24)</span>
+                          <span class="findjobpage-text34">
+                            Customer Service (109)
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame186">
+                      <div class="findjobpage-frame1824">
+                        <div class="findjobpage-frame1784">
+                          <span class="findjobpage-text35">
+                            Experience level
+                          </span>
+                        </div>
+                        
+                      </div>
+                      <div class="findjobpage-group14115">
+                        <div class="findjobpage-group140814">
+                          <div class="findjobpage-box23">
+                            <div class="findjobpage-checkbox23"></div>
+                          </div>
+                          <span class="findjobpage-text36">
+                            Fresher/Entry-Level (265)
+                          </span>
+                          <div class="findjobpage-box24">
+                            <div class="findjobpage-checkbox24"></div>
+                          </div>
+                          <span class="findjobpage-text37">Junior (21)</span>
+                          <div class="findjobpage-box25">
+                            <div class="findjobpage-checkbox25"></div>
+                          </div>
+                          <span class="findjobpage-text38">
+                            Mid-Level (212)
+                          </span>
+                          <div class="findjobpage-box26">
+                            <div class="findjobpage-checkbox26"></div>
+                          </div>
+                          <div class="findjobpage-box27">
+                            <div class="findjobpage-checkbox27"></div>
+                          </div>
+                          <div class="findjobpage-box28">
+                            <div class="findjobpage-checkbox28"></div>
+                          </div>
+                          <span class="findjobpage-text39">Senior (12)</span>
+                          <span class="findjobpage-text40">
+                            Lead/Managerial (24)
+                          </span>
+                          <span class="findjobpage-text41">
+                            Director/Executive (10)
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="findjobpage-frame173">
+                   
+                    <span class="findjobpage-text42">Show more</span>
+                  </div>
+                </div>
+                <div class="findjobpage-frame13979">
+                  <div class="findjobpage-frame139771">
+                    <div class="findjobpage-frame13970">
+                      <div class="findjobpage-frame140151">
+                        <div class="findjobpage-frame1951">
+                          <div class="findjobpage-frame1941">
+                            <span class="findjobpage-text43">
+                              Marketing officers
+                            </span>
+                          </div>
+                          <div class="findjobpage-bookmark-simple1">
+                            
+                          </div>
+                        </div>
+                        <div class="findjobpage-frame1961">
+                          <div class="findjobpage-type1">
+                            <span class="findjobpage-text44">Full-time</span>
+                          </div>
+                          <span class="findjobpage-text45">
+                            Salary: 20,000 INR - 25,000 INR
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame1981">
+                        <div class="findjobpage-frame1971">
+                          <div class="findjobpage-group140491">
+                           
+                          </div>
+                        </div>
+                        <div class="findjobpage-group140571">
+                          <span class="findjobpage-text46">Intel crop</span>
+                          <div class="findjobpage-map-pin10">
+                            <div class="findjobpage-map-pin11">
+                             </div>
+                          </div>
+                          <span class="findjobpage-text47">
+                            Hyderabad, India
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame139681">
+                        <div class="findjobpage-frame139661">
+                          <span class="findjobpage-text48">View details</span>
+                        </div>
+                        <div class="findjobpage-frame139671">
+                          <span class="findjobpage-text49">Apply now</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame13971">
+                      <div class="findjobpage-frame140152">
+                        <div class="findjobpage-frame1952">
+                          <div class="findjobpage-frame1942">
+                            <span class="findjobpage-text50">
+                              Marketing officers
+                            </span>
+                          </div>
+                          <div class="findjobpage-bookmark-simple2">
+                           
+                          </div>
+                        </div>
+                        <div class="findjobpage-frame1962">
+                          <div class="findjobpage-type2">
+                            <span class="findjobpage-text51">Full-time</span>
+                          </div>
+                          <span class="findjobpage-text52">
+                            Salary: 20,000 INR - 25,000 INR
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame1982">
+                        <div class="findjobpage-frame1972">
+                          <div class="findjobpage-group140492">
+                           
+                          </div>
+                        </div>
+                        <div class="findjobpage-group140572">
+                          <span class="findjobpage-text53">Intel crop</span>
+                          <div class="findjobpage-map-pin12">
+                            <div class="findjobpage-map-pin13">
+                            
+                            </div>
+                          </div>
+                          <span class="findjobpage-text54">
+                            Hyderabad, India
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame139682">
+                        <div class="findjobpage-frame139662">
+                          <span class="findjobpage-text55">View details</span>
+                        </div>
+                        <div class="findjobpage-frame139672">
+                          <span class="findjobpage-text56">Apply now</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame13972">
+                      <div class="findjobpage-frame140153">
+                        <div class="findjobpage-frame1953">
+                          <div class="findjobpage-frame1943">
+                            <span class="findjobpage-text57">
+                              Marketing officers
+                            </span>
+                          </div>
+                          <div class="findjobpage-bookmark-simple3">
+                           
+                          </div>
+                        </div>
+                        <div class="findjobpage-frame1963">
+                          <div class="findjobpage-type3">
+                            <span class="findjobpage-text58">Full-time</span>
+                          </div>
+                          <span class="findjobpage-text59">
+                            Salary: 20,000 INR - 25,000 INR
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame1983">
+                        <div class="findjobpage-frame1973">
+                          <div class="findjobpage-group140493">
+                            
+                          </div>
+                        </div>
+                        <div class="findjobpage-group140573">
+                          <span class="findjobpage-text60">Intel crop</span>
+                          <div class="findjobpage-map-pin14">
+                            <div class="findjobpage-map-pin15">
+                              
+                            </div>
+                          </div>
+                          <span class="findjobpage-text61">
+                            Hyderabad, India
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame139683">
+                        <div class="findjobpage-frame139663">
+                          <span class="findjobpage-text62">View details</span>
+                        </div>
+                        <div class="findjobpage-frame139673">
+                          <span class="findjobpage-text63">Apply now</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame13974">
+                      <div class="findjobpage-frame140154">
+                        <div class="findjobpage-frame1954">
+                          <div class="findjobpage-frame1944">
+                            <span class="findjobpage-text64">
+                              Marketing officers
+                            </span>
+                          </div>
+                          <div class="findjobpage-bookmark-simple4">
+                           
+                          </div>
+                        </div>
+                        <div class="findjobpage-frame1964">
+                          <div class="findjobpage-type4">
+                            <span class="findjobpage-text65">Full-time</span>
+                          </div>
+                          <span class="findjobpage-text66">
+                            Salary: 20,000 INR - 25,000 INR
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame1984">
+                        <div class="findjobpage-frame1974">
+                          <div class="findjobpage-group140494">
+                           
+                          </div>
+                        </div>
+                        <div class="findjobpage-group140574">
+                          <span class="findjobpage-text67">Intel crop</span>
+                          <div class="findjobpage-map-pin16">
+                            <div class="findjobpage-map-pin17">
+                             
+                            </div>
+                          </div>
+                          <span class="findjobpage-text68">
+                            Hyderabad, India
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame139684">
+                        <div class="findjobpage-frame139664">
+                          <span class="findjobpage-text69">View details</span>
+                        </div>
+                        <div class="findjobpage-frame139674">
+                          <span class="findjobpage-text70">Apply now</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame13973">
+                      <div class="findjobpage-frame140155">
+                        <div class="findjobpage-frame1955">
+                          <div class="findjobpage-frame1945">
+                            <span class="findjobpage-text71">
+                              Marketing officers
+                            </span>
+                          </div>
+                          <div class="findjobpage-bookmark-simple5">
+                            
+                          </div>
+                        </div>
+                        <div class="findjobpage-frame1965">
+                          <div class="findjobpage-type5">
+                            <span class="findjobpage-text72">Full-time</span>
+                          </div>
+                          <span class="findjobpage-text73">
+                            Salary: 20,000 INR - 25,000 INR
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame1985">
+                        <div class="findjobpage-frame1975">
+                          <div class="findjobpage-group140495">
+                          
+                          </div>
+                        </div>
+                        <div class="findjobpage-group140575">
+                          <span class="findjobpage-text74">Intel crop</span>
+                          <div class="findjobpage-map-pin18">
+                            <div class="findjobpage-map-pin19">
+                             
+                            </div>
+                          </div>
+                          <span class="findjobpage-text75">
+                            Hyderabad, India
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame139685">
+                        <div class="findjobpage-frame139665">
+                          <span class="findjobpage-text76">View details</span>
+                        </div>
+                        <div class="findjobpage-frame139675">
+                          <span class="findjobpage-text77">Apply now</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame139761">
+                      <div class="findjobpage-frame140156">
+                        <div class="findjobpage-frame1956">
+                          <div class="findjobpage-frame1946">
+                            <span class="findjobpage-text78">
+                              Marketing officers
+                            </span>
+                          </div>
+                          <div class="findjobpage-bookmark-simple6">
+                            
+                          </div>
+                        </div>
+                        <div class="findjobpage-frame1966">
+                          <div class="findjobpage-type6">
+                            <span class="findjobpage-text79">Full-time</span>
+                          </div>
+                          <span class="findjobpage-text80">
+                            Salary: 20,000 INR - 25,000 INR
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame1986">
+                        <div class="findjobpage-frame1976">
+                          <div class="findjobpage-group140496">
+                            
+                          </div>
+                        </div>
+                        <div class="findjobpage-group140576">
+                          <span class="findjobpage-text81">Intel crop</span>
+                          <div class="findjobpage-map-pin20">
+                            <div class="findjobpage-map-pin21">
+                             
+                            </div>
+                          </div>
+                          <span class="findjobpage-text82">
+                            Hyderabad, India
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame139686">
+                        <div class="findjobpage-frame139666">
+                          <span class="findjobpage-text83">View details</span>
+                        </div>
+                        <div class="findjobpage-frame139676">
+                          <span class="findjobpage-text84">Apply now</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame139751">
+                      <div class="findjobpage-frame140157">
+                        <div class="findjobpage-frame1957">
+                          <div class="findjobpage-frame1947">
+                            <span class="findjobpage-text85">
+                              Marketing officers
+                            </span>
+                          </div>
+                          <div class="findjobpage-bookmark-simple7">
+                            
+                          </div>
+                        </div>
+                        <div class="findjobpage-frame1967">
+                          <div class="findjobpage-type7">
+                            <span class="findjobpage-text86">Full-time</span>
+                          </div>
+                          <span class="findjobpage-text87">
+                            Salary: 20,000 INR - 25,000 INR
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame1987">
+                        <div class="findjobpage-frame1977">
+                          <div class="findjobpage-group140497">
+                            
+                            
+                          </div>
+                        </div>
+                        <div class="findjobpage-group140577">
+                          <span class="findjobpage-text88">Intel crop</span>
+                          <div class="findjobpage-map-pin22">
+                            <div class="findjobpage-map-pin23">
+                              
+                            </div>
+                          </div>
+                          <span class="findjobpage-text89">
+                            Hyderabad, India
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame139687">
+                        <div class="findjobpage-frame139667">
+                          <span class="findjobpage-text90">View details</span>
+                        </div>
+                        <div class="findjobpage-frame139677">
+                          <span class="findjobpage-text91">Apply now</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="findjobpage-frame139772">
+                      <div class="findjobpage-frame140158">
+                        <div class="findjobpage-frame1958">
+                          <div class="findjobpage-frame1948">
+                            <span class="findjobpage-text92">
+                              Marketing officers
+                            </span>
+                          </div>
+                          <div class="findjobpage-bookmark-simple8">
+                            
+                          </div>
+                        </div>
+                        <div class="findjobpage-frame1968">
+                          <div class="findjobpage-type8">
+                            <span class="findjobpage-text93">Full-time</span>
+                          </div>
+                          <span class="findjobpage-text94">
+                            Salary: 20,000 INR - 25,000 INR
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame1988">
+                        <div class="findjobpage-frame1978">
+                          <div class="findjobpage-group140498">
+                      </div>
+                        </div>
+                        <div class="findjobpage-group140578">
+                          <span class="findjobpage-text95">Intel crop</span>
+                          <div class="findjobpage-map-pin24">
+                            <div class="findjobpage-map-pin25">
+                              
+                            </div>
+                          </div>
+                          <span class="findjobpage-text96">
+                            Hyderabad, India
+                          </span>
+                        </div>
+                      </div>
+                      <div class="findjobpage-frame139688">
+                        <div class="findjobpage-frame139668">
+                          <span class="findjobpage-text97">View details</span>
+                        </div>
+                        <div class="findjobpage-frame139678">
+                          <span class="findjobpage-text98">Apply now</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="findjobpage-frame13978">
+                    <div class="findjobpage-frame139762">
+                       
+                      <div class="findjobpage-frame139752">
+                        <span class="findjobpage-text99">View more</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="findjobpage-navbar">
+            <div class="findjobpage-logo">
+              <span class="findjobpage-text100">Myjob</span>
+            </div>
+            <div class="findjobpage-links">
+              <span class="findjobpage-text101">Jobs</span>
+              <span class="findjobpage-text102">Company</span>
+              <span class="findjobpage-text103">Career</span>
+            </div>
+            <button class="findjobpage-buttons">
+              <div class="findjobpage-btn1">
+                <span class="findjobpage-text104">Login</span>
+              </div>
+              <div class="findjobpage-btn2">
+                <span class="findjobpage-text105">Signup</span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
